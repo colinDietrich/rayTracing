@@ -1,3 +1,4 @@
+<img src="assets/GA_result.png" width="200" align="center">
 # Introduction
 
 This project focuses on developing a **ray-tracing** software for electromagnetic wave propagation analysis. It calculates the power received by a device from a Wifi access point within a building, determines the 5G indoor small cell base station's coverage area, and assesses the received bit rate based on the receiver's location.
@@ -26,6 +27,8 @@ Developed in C++, the software benefits from object-oriented design for ease of 
 - **Mode 1**: Displays rays reaching the receiver, calculating received power. Users set transmitter and receiver positions.
 - **Mode 2**: Visualizes coverage area and intensity by map discretization, allowing user-defined transmitter positions and discretization levels.
 - **Mode 3**: Uses a genetic algorithm to optimize transmitter number and placement for maximum coverage, detailed in the optimization section.
+
+<img src="assets/Modes.png" width="200" align="center">
 
 # Optimization
 
