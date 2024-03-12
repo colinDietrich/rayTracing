@@ -27,10 +27,10 @@ Developed in C++, the software benefits from object-oriented design for ease of 
 - **Mode 2**: Visualizes coverage area and intensity by map discretization, allowing user-defined transmitter positions and discretization levels.
 - **Mode 3**: Uses a genetic algorithm to optimize transmitter number and placement for maximum coverage, detailed in the optimization section.
 
-<img src="assets/Modes.png" width="500" align="center">
+<img src="assets/Modes.png" width="600" align="center">
 
 # Optimization
 
 Aiming for optimal 5G coverage with minimal transmitters, the project employs a genetic algorithm inspired by chromosome replication techniques. This approach avoids exhaustive positioning evaluations and does not pre-determine the number of sources. The methodology is based on the work <a href="https://ieeexplore.ieee.org/document/4812006"/>"Wireless Heterogeneous Transmitter Placement Using Multiobjective Variable-Length Genetic Algorithm" by C. Ting et al.</a>
 
-<img src="assets/GA_result.png" width="500" align="center">
+<img src="assets/GA_result.png" width="600" align="center">
